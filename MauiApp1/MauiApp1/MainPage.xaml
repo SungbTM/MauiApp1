@@ -30,6 +30,15 @@
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" />
+            <Button
+                x:Name="btnTela2"
+                Text="Abrir Tela 2"
+                Clicked="btnTela2_Cliked" />
+            <Button
+                  x:Name="btnVoltar"
+                    Text="Voltar Para Tela 1"
+                    Clicked="btnVoltar_Cliked" />
+            
         </VerticalStackLayout>
     </ScrollView>
 

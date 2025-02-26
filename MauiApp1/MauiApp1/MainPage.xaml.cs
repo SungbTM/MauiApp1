@@ -20,6 +20,12 @@
 
             SemanticScreenReader.Announce(CounterBtn.Text);
         }
+
+        private void btnTela2_Cliked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new NewPage1());
+            Navigation.PopAsync(new btnVoltar());
+        }
     }
 
 }
